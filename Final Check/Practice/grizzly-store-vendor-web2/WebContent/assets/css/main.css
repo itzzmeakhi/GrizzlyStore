@@ -1,0 +1,121 @@
+/**************************************/
+/******** COMMON PROPERTIES ***********/
+/**************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'B612', sans-serif;
+	font-size: 15px;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	box-sizing: border-box;
+}
+
+/**************************************/
+/*********** INDEX PAGE  **************/
+/**************************************/
+
+.main-container form input[type="text"],
+.main-container form input[type="password"],
+.main-container form input[type="number"] {
+	border: 1px solid #dfe6e9;
+    color: #7a97a4;
+	font-size: 125%;
+	padding: 0 9px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #e9eef0;
+    margin: 0 auto;
+}
+
+
+.main-container form .btn-login {
+	background-color: #e9eef0;
+    text-align: center;
+    display: block;
+    font-size: 125%;
+    padding: 8px 16px;
+    color: #7a97a4;
+    font-weight: 500;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.main-container h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+.main-container h1:after {
+	content: " ";
+	background-color: #dfe6e9;
+	padding: 1px;
+	display: block;
+	margin: 50px auto;
+	width: 500px;
+}
+
+.main-container .login-form {
+	position: relative;
+	top: 99%;
+}
+
+.main-container form p,
+.main-container form span {
+	color: #e74c3c;
+	font-size: 125%;
+	font-weight: 300;
+}
+
+/*************************************/
+/*********** HOME PAGE  **************/
+/*************************************/
+
+/*********************************************/
+/*********** NAVBAR PROPERTIES  **************/
+/*********************************************/
+
+
+nav .nav-brand img {
+    width: 70px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+nav a:hover {
+    color: #000;
+    text-decoration: none
+}
+
+nav .navbar-nav input[type="search"] {
+    color: #7a97a4;
+    text-align: center;
+    border: transparent;
+}
+
+nav .navbar-nav .nav-item {
+    margin: 10px auto;
+}
+
+nav .navbar-nav .nav-item span{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+nav .navbar-nav input[type="button"] {
+    background-color: #bbb;
+    text-align: center;
+    display: block;
+    font-size: 125%;
+    padding: 5px 13px;
+    color: #000;
+    font-weight: 500;
+    border-radius: 20px;
+}
